@@ -1,16 +1,130 @@
-# React + Vite
+Sports Analytics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern sports performance analytics dashboard built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+Live Demo:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://sports-analytics-dashboard-theta.vercel.app/
 
-## React Compiler
+Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The Sports Analytics Dashboard simulates a performance monitoring platform used by football clubs, analysts, and scouts to evaluate player metrics during matches and training sessions.
 
-## Expanding the ESLint configuration
+The dashboard provides a clean interface for visualizing important player performance data such as:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+Expected Goals (xG)
+
+Sprint Speed
+
+Distance Covered
+
+Heart Rate
+
+Player performance trends
+
+It also includes a scouting table and interactive drill-down views to simulate how clubs analyze players during recruitment and performance analysis.
+
+Features
+
+• KPI performance cards for quick metric overview
+
+• Interactive performance chart powered by Recharts
+
+• Player scouting table with player metrics
+
+• Player drill-down modal for detailed view
+
+• Modern responsive UI built with Tailwind CSS
+
+• Live deployment for real-time access
+
+Tech Stack
+
+Frontend
+
+
+React
+
+Vite
+
+JavaScript
+
+
+Styling
+
+
+Tailwind CSS
+
+
+Data Visualization
+
+
+Recharts
+
+
+Deployment
+
+
+Vercel
+
+
+Screenshot
+
+
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/Mmapul/sports-analytics-dashboard
+
+Navigate into the project folder:
+
+cd sports-analytics-dashboard
+
+
+Install dependencies:
+
+npm install
+
+
+Run the development server:
+
+npm run dev
+
+Then open the local server URL displayed in your terminal (http://localhost:5173).
+
+Deployment
+
+The application is deployed and hosted using Vercel.
+
+Live project:
+
+https://sports-analytics-dashboard-theta.vercel.app/
+
+Future Improvements
+
+• Integration with real sports data APIs
+
+• Player authentication and account system
+
+• Advanced analytics and predictive insights
+
+• Player comparison tools
+
+• Exportable performance reports
+
+Author
+
+Nifemi Oluniyi
+
+GitHub:
+
+https://github.com/Mmapul
+
+Project Repository:
+
+https://github.com/Mmapul/sports-analytics-dashboard
+
